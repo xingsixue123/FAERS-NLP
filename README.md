@@ -2,7 +2,6 @@
 
 **Author:** Sixue Xing  
 **License:** MIT  
-**Dataset:** [FAERS-NLP on Hugging Face](https://huggingface.co/datasets/sixuexing/FAERS-NLP)
 
 ---
 
@@ -17,7 +16,7 @@ The code includes:
 3. **Encoding and preprocessing CSVs** for NLP tasks.  
 4. **Two-Step Retrieval Search pipeline**, filtering by age, gender, time, etc; drug/disease/country vector search
 
-The final processed dataset is available at: [FAERS-NLP on Hugging Face](https://huggingface.co/datasets/sixuexing/FAERS-NLP)
+The processed tabular dataset is available at: [FAERS-NLP on Hugging Face](https://huggingface.co/datasets/sixuexing/FAERS-NLP)
 
 ---
 
