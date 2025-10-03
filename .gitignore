@@ -1,0 +1,10 @@
+*.log
+*.txt
+*.out
+**/__pycache__/
+*.json
+*.csv
+
+/raw
+/out
+/embs
