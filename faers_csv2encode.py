@@ -138,16 +138,18 @@ def retrieve_topk(query, top_k=5, subdf_idx=None):
     return topk_indices, topk_scores
 
 
-#encode()  
-query = "United States; fluticasone furoate; cough"
-topk_indices, topk_scores = retrieve_topk(query, top_k=5)
-print(topk_indices)
-print(topk_scores)
+if __name__ == "__main__":
 
-    
+    encode()  
+    # query = "United States; fluticasone furoate; cough"
+    # topk_indices, topk_scores = retrieve_topk(query, top_k=5)
+    # print(topk_indices)
+    # print(topk_scores)
+
+        
 
 
-df = pd.read_csv(f"{FAERS_ABS}/out/1_ADR18Q2_format.csv")
-print(df.head())
+    # df = pd.read_csv(f"{FAERS_ABS}/out/1_ADR18Q2_format.csv")
+    # print(df.head())
 
 
